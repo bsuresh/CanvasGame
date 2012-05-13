@@ -4,16 +4,40 @@
 		"selected_items":
 		[
 			[
+				"st",
+				"steerLeft"
+			],
+			[
+				"ob",
+				"objectHeight"
+			],
+			[
+				"de",
+				"direction"
+			],
+			[
+				"ac",
+				"acceleration"
+			],
+			[
+				"acc",
+				"accelrate"
+			],
+			[
+				"scr",
+				"screen_width"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
 				"sc",
 				"screen_height"
 			],
 			[
 				"scre",
 				"screen_width"
-			],
-			[
-				"scr",
-				"screen_height"
 			],
 			[
 				"pro",
@@ -31,7 +55,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 429,
+				"buffer_size": 1886,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,17 +71,9 @@
 			"file": "styles/main.css",
 			"settings":
 			{
-				"buffer_size": 67,
-				"line_ending": "Windows",
+				"buffer_size": 4727,
+				"line_ending": "Unix",
 				"name": "body{"
-			}
-		},
-		{
-			"file": "js/MrED.js",
-			"settings":
-			{
-				"buffer_size": 3754,
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -65,6 +81,38 @@
 			"settings":
 			{
 				"buffer_size": 1564,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/script.js",
+			"settings":
+			{
+				"buffer_size": 3443,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/MrED_v2.js",
+			"settings":
+			{
+				"buffer_size": 7217,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/MrED_v1.js",
+			"settings":
+			{
+				"buffer_size": 3443,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/MrED.js",
+			"settings":
+			{
+				"buffer_size": 3769,
 				"line_ending": "Windows"
 			}
 		}
@@ -93,11 +141,15 @@
 	},
 	"file_history":
 	[
+		"/C/Suresh/CanvasGame/js/MrED_v1.js",
+		"/C/Suresh/CanvasGame/js/libs/easeljs-0.4.2.min.js",
+		"/C/Suresh/CanvasGame/js/game.js",
+		"/C/Users/Anantha/Downloads/h5bp-html5-boilerplate-v3.0.2stripped-0-g5f341a3/h5bp-html5-boilerplate-359a13f/index.html",
 		"/C/Suresh/CanvasGame/js/MrED.js"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -111,6 +163,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"acceleration"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -128,7 +181,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -136,15 +189,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 429,
+						"buffer_size": 1886,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								86,
-								86
+								1501,
+								1501
 							]
 						],
 						"settings":
@@ -176,7 +229,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -189,15 +243,15 @@
 					"file": "styles/main.css",
 					"settings":
 					{
-						"buffer_size": 67,
+						"buffer_size": 4727,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5,
-								5
+								510,
+								510
 							]
 						],
 						"settings":
@@ -213,32 +267,6 @@
 				},
 				{
 					"buffer": 3,
-					"file": "js/MrED.js",
-					"settings":
-					{
-						"buffer_size": 3754,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3125,
-								3125
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 813.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "js/game.js",
 					"settings":
 					{
@@ -249,8 +277,36 @@
 						"selection":
 						[
 							[
-								1420,
-								1420
+								1037,
+								1037
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 480.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/script.js",
+					"settings":
+					{
+						"buffer_size": 3443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1310,
+								1310
 							]
 						],
 						"settings":
@@ -258,7 +314,91 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 375.0,
+						"translation.y": 615.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/MrED_v2.js",
+					"settings":
+					{
+						"buffer_size": 7217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2218,
+								2218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1035.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/MrED_v1.js",
+					"settings":
+					{
+						"buffer_size": 3443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								3443
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/MrED.js",
+					"settings":
+					{
+						"buffer_size": 3769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2876,
+								2876
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -15,10 +15,12 @@
 
     MrED.prototype.vx = 0;
     MrED.prototype.vy = 0;
-    MrED.prototype.friction = 0.9;
-    MrED.prototype.thrust = 0;
+    MrED.prototype.friction = 0.8;
+    MrED.prototype.energy = 0;
     MrED.prototype.vr = 0;
     MrED.prototype.stokeWidth = 5;
+    MrED.prototype.hit = 0;
+    MrED.prototype.alive = true;
     MrED.prototype.objectWidth;
     MrED.prototype.objectHeight;
     MrED.prototype.radius;
@@ -41,17 +43,22 @@
             this.objectWidth = this.radius *2.5;
             this.objectHeight = this.radius *2.5;
         }
+
+        //bounds for collision test
+        this.hit = this.radius + 5;
     }
 
     MrED.prototype.tick = function() {
-       this.rotation += this.vr;
-        var angle = this.rotation * Math.PI/180,
-            ax = Math.cos(angle) * this.thrust,
-            ay = Math.sin(angle) * this.thrust,
-            left = this.bounds.x,
-            right = this.bounds.width,
-            top = this.bounds.y,
-            bottom = this.bounds.height;
+        if(this.alive)
+        {
+           this.rotation += this.vr;
+            var angle = this.rotation * Math.PI/180,
+                ax = Math.cos(angle) * this.energy,
+                ay = Math.sin(angle) * this.energy,
+                left = this.bounds.x,
+                right = this.bounds.width,
+                top = this.bounds.y,
+                bottom = this.bounds.height;
 
             this.vx += ax;
             this.vy += ay;
@@ -59,24 +66,6 @@
             this.vy *= this.friction;
             this.x += this.vx;
             this.y += this.vy;
-
-            /*var speed = Math.sqrt(this.vx*this.vx + this.vy*this.vy),
-                angle = Math.atan2(this.vy, this.vx);
-            var  left = this.bounds.x,
-            right = this.bounds.width,
-            top = this.bounds.y,
-            bottom = this.bounds.height;
-
-            if( speed > this.friction)
-            {
-                speed -= this.friction;
-            }
-            else { speed = 0; }
-
-            this.vx = Math.cos(angle) * speed;
-            this.vy = Math.sin(angle) * speed;
-            this.x += this.vx;
-            this.y += this.vy;*/
 
             if (this.x - this.objectWidth/2 > right) {
                 this.x = left - this.objectWidth/2;
@@ -91,6 +80,12 @@
             {
                 this.y = bottom + this.objectHeight /2;
             }
+        }
+    }
+
+    MrED.prototype.die = function(xpos, ypos)
+    {
+        Tween.get(this).wait(100).to({rotation:719, scaleX:0.7, scaleY:0.7, x:xpos, y:ypos},1000, Ease.bounceOut);
     }
 
     function handleImageLoad() {

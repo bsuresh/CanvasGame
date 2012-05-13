@@ -11,6 +11,7 @@
 
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="styles/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
 
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
 </head>
@@ -19,9 +20,14 @@
   <header>
 
   </header>
-  <div role="main">
-  	<canvas id ="gameCanvas" width = "400"  height ="400"></canvas>
-
+  <div role="main" id ="main">
+    <div id ="gameArea">
+  	 <canvas id ="gameCanvas" width = "400"  height ="400"></canvas>
+    </div>
+    <div id="gameOver">
+      <h1 class="Rancho-normal-400">GAME OVER!</h1>
+      <a onclick="restartGame();" href="javascript:void(0);" class="Rancho-normal-400">Replay</a>
+    </div>
   </div>
   <footer>
 
@@ -36,6 +42,9 @@
   <script src="js/libs/preloadjs-0.1.0.min.js"></script>
   <script src="js/libs/tweenjs-0.2.0.min.js"></script>
   <script src="js/MrED.js"></script>
+  <script src="js/Meat.js"></script>
+  <script src="js/Label.js"></script>
+  <script src="js/Hole.js"></script>
   <script src="js/script.js"></script>
 
 

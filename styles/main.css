@@ -63,13 +63,14 @@ table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 
 .chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
-
-
-
-
-
-
-
+html { overflow:hidden; }
+body { background:url('../images/paper.png') top left;}
+#gameArea { position: absolute; overflow: hidden; z-index:10;}
+.Rancho-normal-400 { font-family: 'Rancho' !important; font-style: normal; font-weight: 400; }
+#main { width:100%;}
+#gameOver{ position: relative; padding:20px; width:500px; height:150px;  margin: 0px auto; top:100px; background-color: #FFF; border:8px solid #FAFBE3; display:none; z-index:100;}
+h1{ font-size:34pt; margin:0; padding: 0 0 10px 0; width:100%; text-align:center;}
+a { text-decoration:underline; color:#999; font-size:24pt; width:100%; text-align:center; display: block;}
 
 
 @media only screen and (min-width: 35em) {
