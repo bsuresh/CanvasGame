@@ -144,8 +144,8 @@ function gameover()
 
 function handleKeyDown(event) {
 	
-	if (window.event) keycode = window.event.keyCode;
-	else if (e) keycode = e.which;
+	keycode = event.keyCode;
+	
 	switch(keycode)
 	{
 		case 37: //left
@@ -166,8 +166,7 @@ function handleKeyDown(event) {
 function handleKeyUp(event) {
 	mrED.vr = 0;
 	
-    if (window.event) keycode = window.event.keyCode;
-    else if (e) keycode = e.which;
+    keycode = event.keyCode;
     
     switch(keycode)
     {
