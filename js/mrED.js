@@ -96,7 +96,7 @@
     function generateEDGraphic(r, sw) {
         var g = new Graphics();
         g.setStrokeStyle(sw);
-        g.beginStroke(Graphics.getRGB(0,0,0));
+        g.beginStroke(Graphics.getRGB(114,18,21));
         g.beginFill(Graphics.getRGB(255,255,255));
         g.arc(0,0,r,-Math.PI/2,Math.PI/2);
         g.closePath();
@@ -108,7 +108,7 @@
         g.moveTo(0,r);
         g.lineTo(-r*0.8, r); 
         g.endStroke();
-        g.beginFill(Graphics.getRGB(0,0,0));
+        g.beginFill(Graphics.getRGB(114,18,21));
         g.drawCircle(r/2,-r/3,3);
         g.endFill();
         var s = new Shape(g);
