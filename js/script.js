@@ -92,8 +92,10 @@ function startGame()
 
     //add the kyboard events,
 	// MrED can be moved with the arrow keys (left, right)
-	document.onkeydown = handleKeyDown;
-	document.onkeyup = handleKeyUp;
+	//document.onkeydown = handleKeyDown;
+	//document.onkeyup = handleKeyUp;
+	$(document).keydown(function(event){handleKeyDown(event)});
+	$(document).keyup(function(event){handleKeyUp(event)});
 
     // we want to do some work before we update the canvas,
     // otherwise we could use Ticker.addListener(stage);
@@ -142,8 +144,8 @@ function gameover()
 
 function handleKeyDown(event) {
 	
-	if (window.event) keycode = window.event.keyCode;
-	else if (e) keycode = e.which;
+	keycode = event.keyCode;
+	
 	switch(keycode)
 	{
 		case 37: //left
@@ -164,8 +166,7 @@ function handleKeyDown(event) {
 function handleKeyUp(event) {
 	mrED.vr = 0;
 	
-    if (window.event) keycode = window.event.keyCode;
-    else if (e) keycode = e.which;
+    keycode = event.keyCode;
     
     switch(keycode)
     {
