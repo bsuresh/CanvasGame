@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background	background-color: hex"
+			],
+			[
+				"sco",
+				"score"
+			],
+			[
+				"scor",
+				"scoreAlert"
+			],
+			[
+				"sca",
+				"scaleY"
+			],
+			[
+				"scale",
+				"scaleX"
+			],
+			[
+				"scree",
+				"screen_width"
+			],
+			[
+				"score",
+				"scoreLabel"
+			],
+			[
+				"add",
+				"addChild"
+			],
+			[
+				"Mr",
+				"mrED"
+			],
+			[
+				"mea",
+				"meats"
+			],
+			[
 				"st",
 				"steerLeft"
 			],
@@ -55,56 +95,23 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1886,
+				"buffer_size": 2325,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/utils.js",
+			"file": "js/Label.js",
 			"settings":
 			{
-				"buffer_size": 1096,
+				"buffer_size": 841,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "styles/main.css",
+			"file": "js/Hole.js",
 			"settings":
 			{
-				"buffer_size": 4727,
-				"line_ending": "Unix",
-				"name": "body{"
-			}
-		},
-		{
-			"file": "js/game.js",
-			"settings":
-			{
-				"buffer_size": 1564,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/script.js",
-			"settings":
-			{
-				"buffer_size": 3443,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/MrED_v2.js",
-			"settings":
-			{
-				"buffer_size": 7217,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/MrED_v1.js",
-			"settings":
-			{
-				"buffer_size": 3443,
+				"buffer_size": 3019,
 				"line_ending": "Windows"
 			}
 		},
@@ -112,8 +119,24 @@
 			"file": "js/MrED.js",
 			"settings":
 			{
-				"buffer_size": 3769,
+				"buffer_size": 3574,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/script.js",
+			"settings":
+			{
+				"buffer_size": 7121,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles/main.css",
+			"settings":
+			{
+				"buffer_size": 5351,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -141,9 +164,12 @@
 	},
 	"file_history":
 	[
-		"/C/Suresh/CanvasGame/js/MrED_v1.js",
-		"/C/Suresh/CanvasGame/js/libs/easeljs-0.4.2.min.js",
+		"/C/Suresh/CanvasGame/styles/main.css",
+		"/C/Suresh/CanvasGame/js/utils.js",
 		"/C/Suresh/CanvasGame/js/game.js",
+		"/C/Suresh/CanvasGame/js/MrED_v1.js",
+		"/C/Suresh/CanvasGame/js/MrED_v2.js",
+		"/C/Suresh/CanvasGame/js/libs/easeljs-0.4.2.min.js",
 		"/C/Users/Anantha/Downloads/h5bp-html5-boilerplate-v3.0.2stripped-0-g5f341a3/h5bp-html5-boilerplate-359a13f/index.html",
 		"/C/Suresh/CanvasGame/js/MrED.js"
 	],
@@ -163,6 +189,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gameover",
+			"alertAni",
+			"bounds",
+			"thrust",
 			"acceleration"
 		],
 		"highlight": true,
@@ -181,7 +211,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -189,48 +219,48 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1886,
+						"buffer_size": 2325,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1501,
-								1501
+								1286,
+								1286
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 195.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "js/utils.js",
+					"file": "js/Label.js",
 					"settings":
 					{
-						"buffer_size": 1096,
+						"buffer_size": 841,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22,
-								22
+								689,
+								689
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -240,24 +270,25 @@
 				},
 				{
 					"buffer": 2,
-					"file": "styles/main.css",
+					"file": "js/Hole.js",
 					"settings":
 					{
-						"buffer_size": 4727,
+						"buffer_size": 3019,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								510,
-								510
+								537,
+								537
 							]
 						],
 						"settings":
 						{
-							"auto_name": "body{",
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -267,18 +298,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "js/game.js",
+					"file": "js/MrED.js",
 					"settings":
 					{
-						"buffer_size": 1564,
+						"buffer_size": 3574,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1037,
-								1037
+								1247,
+								1247
 							]
 						],
 						"settings":
@@ -288,7 +319,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 480.0,
+						"translation.y": 690.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -298,107 +329,53 @@
 					"file": "js/script.js",
 					"settings":
 					{
-						"buffer_size": 3443,
+						"buffer_size": 7121,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1310,
-								1310
+								3457,
+								3457
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 615.0,
+						"translation.y": 1291.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "js/MrED_v2.js",
+					"file": "styles/main.css",
 					"settings":
 					{
-						"buffer_size": 7217,
+						"buffer_size": 5351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2218,
-								2218
+								3472,
+								3076
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1035.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "js/MrED_v1.js",
-					"settings":
-					{
-						"buffer_size": 3443,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								3443
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "js/MrED.js",
-					"settings":
-					{
-						"buffer_size": 3769,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2876,
-								2876
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 408.0,
+						"translation.y": 573.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

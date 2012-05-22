@@ -1,0 +1,14 @@
+/*
+Custom CSS Styles & Bootstrap overrides
+*/
+body{background:url('../img/bg.jpg') top left repeat;}
+.thumbnail{/*Layout*/ padding:10px; background:#fff;}
+.navbar-inner{background-image:-moz-linear-gradient(center top , rgba(51,51,51,0.5), rgba(19,19,19,0.5)); background-color:rgba(19,19,19,0.9);}
+.logobox{/*Layout*/ height:68px; padding:220px 100px 0 20px; /*Colours*/ background:#d92001; /*Typography*/}
+.logobox h2{/*Layout*/ /*Colours*/ /*Typography*/ line-height:22px; letter-spacing:-0.1em; text-shadow:0 1px 0 rgba(0, 0, 0, 0.5);}
+.contactbox{/*Layout*/padding:20px; /*Colours*/ background:#131313;}
+.contactbox h4{/*Colours*/color:#d6d0c7;/*Typography*/line-height:40px;}
+.contactbox p{/*Colours*/color:#6d6d6b;/*Typography*/font-size:11px; line-height:20px;}
+h2.white{/*Colours*/ color: #fff;}
+h2.horange{/*Colours*/ color: #ff7b56;}
+.label-new{/*Colours*/ background: #d92001;}
